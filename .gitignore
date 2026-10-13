@@ -1,0 +1,22 @@
+jdk-25_linux-x64_bin.tar.gz
+jdk*
+*.tar.gz
+
+# Bỏ qua thư mục chứa file biên dịch (như thư mục target hay các file .class)
+target/
+*.class
+*.jar
+*.war
+
+# Bỏ qua các file cấu hình ẩn của VS Code
+.vscode/
+
+# Bỏ qua cấu hình của các IDE khác (Phòng trường hợp bạn khác trong nhóm dùng Eclipse hoặc IntelliJ)
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+
+# Bỏ qua các file log hệ thống
+*.log
